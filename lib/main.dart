@@ -19,9 +19,8 @@ class MyApp extends StatelessWidget {
       create: (context) =>MyViewModel(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Sample login',
         theme: ThemeData(
-          primarySwatch: Colors.purple,
+          primarySwatch: Colors.indigo,
         ),
         home:  login(),
       ),);
